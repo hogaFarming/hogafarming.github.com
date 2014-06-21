@@ -1,0 +1,30 @@
+/*reset*/
+body,div,p,h1,h2,h3,h4,h5,ol,
+ul,li,dl,dt,dd,table,tr,th,
+td,form,input,textarea {
+	margin: 0; padding: 0
+}
+table {
+	border-collapse: collapse; border-spacing: 0;
+}
+ul, ol {
+	list-style: none;
+}
+img {
+	border: 0;
+}
+
+/*clearfix*/
+.cf:before, .cf:after {
+	content: "";
+	display: table;
+	height: 0;
+}
+.cf:after {
+	clear: both;
+}
+.cf {
+	zoom: 1;
+}
+
+/*global*/
