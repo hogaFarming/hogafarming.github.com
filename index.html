@@ -4,7 +4,7 @@ title: 阅夏的博客
 ---
 <h2>文章列表</h2>
 <ul>
-    {% for post in site.posts %}
-        <li><span class="fr">{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
+	{% for post in site.posts %}
+	<li><span class="fr">{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
+	{% endfor %}
 </ul>
