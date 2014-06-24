@@ -60,27 +60,25 @@ $(document).ready(function () {
 				"background-color": "rgba(255,255,255,0.7)"
 			}).on("click", function() {
 				$(".pop-bg").hide();
-				$(".img-box").hide();
+				$(".img-view").hide();
 			}).appendTo($("body"));
 		};
 		//窗口
-		if ($(".img-box").length > 0) {
-			$(".img-box").show();
+		if ($(".img-view").length > 0) {
+			$(".img-view").show();
 
-			$(".img-box img").attr("src", this.src.split(".jpg")[0] + "large.jpg");
-			// var thisrc = $(".img-box img").src;
-			// var s;
+			$(".img-view img").attr("src", this.src.split(".jpg")[0] + "large.jpg");
 		} else {
-			var str = "<div class='img-box'>";
+			var str = "<div class='img-view'>";
 			str += "<img src='";
 			str +=  this.src.split(".jpg")[0] + "large.jpg";
 			str += "' /></div>";
-			var imgBox = $(str);
-			var boxImg = imgBox.find("img");
-			boxImg.css({
+			var imgView = $(str);
+			var viewImg = imgView.find("img");
+			viewImg.css({
 				"width": "100%"
 			});
-			imgBox.css({
+			imgView.css({
 				"width": "66%",
 				"height": "66%",
 				"position": "absolute",
