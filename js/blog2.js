@@ -36,9 +36,6 @@ $(document).ready(function () {
 				
 			});
 		});
-
-		
-
 	};
 
 	var mySlider = new MySlider();
@@ -121,4 +118,10 @@ $(document).ready(function () {
 	$(".skill").on("mouseover", function() {
 		$(".inner").addClass("active");
 	});
+
+	//关闭按钮
+	$(".warn .close").on("click", function() {
+		$(".warn").hide();
+	})
+
 });
