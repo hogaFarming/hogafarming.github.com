@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>选择器优先级测试</title>
+<style type="text/css">
+	div.col { width: 400px}
+	.col{ background: #345; width: 200px; height: 200px }
+</style>
+</head>
+<body>
+	<div class="col"></div>
+	<div class="parent">
+		<div class="col"></div>
+	</div>
+</body>
+</html>

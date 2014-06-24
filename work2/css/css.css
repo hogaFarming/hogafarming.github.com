@@ -1,0 +1,78 @@
+/*myReset*/
+body,div,p,h1,h2,h3,h4,h5,ol,ul,li,dl,dt,dd,table,tr,th,td { margin: 0; padding: 0 }
+img { border: 0 }
+ul,ol { list-style: none }
+h1,h2,h3,h4,h5 { font-size: 100% }
+
+/*constant*/
+.cw { color: white }
+.cg { color: #727272 }
+.pt30 { padding-top: 30px}
+.BLOG_PADDING { padding-left: 40px; padding-right: 30px }
+.fl { float: left }
+.fr { float: right }
+
+/*clearfix*/
+.cf:before, .cf:after { display: table; content: ""; height: 0 }
+.cf:after { clear: both }
+.cf { *zoom:1 }
+
+/*global*/
+body { font: 12px/1.8em Georgia,"Times New Roman",Times,serif; background: #fff url(../images/body_bg.jpg) repeat-x top left; color: #444 }
+a { text-decoration: none; color: #4EA4BA }
+a:hover { text-decoration: underline }
+h2 { font: 24px/2.0em Georgia,"Times New Roman",Times,serif; margin-bottom: 20px }
+
+/*wrapper*/
+#wrapper { width: 100%; background: url(../images/header_bg.jpg) no-repeat center top; }
+
+/*container*/
+#container { width: 970px; margin: 0 auto }
+
+/*header*/
+#header { height: 384px; position: relative }
+	#slogan { float: left; position: relative; top: 40px; cursor: default }
+	#slogan h1 { font: 30px/1.0em Georgia,"Times New Roman",Times,serif; color: #fff }
+	#menu { float: right; position: relative; top: 80px }
+	#menu li { float: right; padding-left: 50px }
+	#menu a { color: #fff; font-size: 16px }
+
+/*main*/
+#main { position: relative; margin-top: -50px; padding-top: 10px; background-color: #fff }
+
+	/*content*/
+	.articleList { width: 628px }
+	.article { margin-bottom: 50px }
+	.artInfo { margin-bottom: 20px }
+	.artInfo a { text-decoration: underline }
+	.artIllu { margin-bottom: 30px }
+	.essay { margin-bottom: 20px }
+
+	/*sidebar*/
+	.sidebar { position: absolute; top: 30px; right: 30px; width: 260px }
+	.sideBlock { margin-bottom: 30px }
+	.sideMenuList { margin-left: 30px }
+	.sideMenu li { list-style-image: url(../images/li.gif); border-bottom: 1px solid #ccc }
+	.sideMenu li a { line-height: 30px; color: #000 }
+	.sponsorList { margin-left: 30px }
+	.sponsorList li { list-style-image: url(../images/li.gif); margin-bottom: 15px }
+
+/*#aboveFooter*/
+#aboveFooter { background-color: #4EA4BA }
+	.column { float: left; width: 220px; margin: 0 30px 30px 0; font-weight: bold }
+	.column img { display: block; width: 57px; height: 57px; border: 4px solid #fff }
+	.imgGallery { width: 230px }
+	.imgGallery .thumbnail { float: left; margin: 0 10px 10px 0; }
+	.colMiddle { width: 300px }
+	.about { width: 280px }
+	.about p { vertical-align: top }
+	.about img { margin-right: 10px }
+
+/*footer*/
+#footer { }
+	.fNav { width: 500px }
+	.fNav li { float: left; padding: 0 10px }
+	.fNav a { font-weight: bold; color: #555 }
+	.copyright { width: 200px; text-align: right }
+	.fNav a, .copyright { line-height: 55px }
+	

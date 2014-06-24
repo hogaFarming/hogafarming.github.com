@@ -176,12 +176,28 @@ body {
 	float: left;
 	margin: 20px;
 	width: 180px;
+}
+.works li .img-box {
+	width: 180px;
 	height: 150px;
 	overflow: hidden;
 }
 .works li img {
-	width: 180px;
+	width: 100%;
 }
+.works p {
+	padding: 10px;
+	text-align: center;
+}
+.works p a {
+	color: #242424;
+	font-weight: bold;
+}
+.works p a:hover {
+	text-decoration: none;
+	color: #ccc;
+}
+
 /*场景3*/
 .scene .exp {
 	padding-top: 150px;
