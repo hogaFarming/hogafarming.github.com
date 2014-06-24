@@ -264,11 +264,11 @@ body {
 	transition: all 2s;
 }
 .skill-box .indicator .html.active {
-	height: 80%;
+	height: 65%;
 	background-color: #c93434;
 }
 .skill-box .indicator .css.active {
-	height: 60%;
+	height: 50%;
 	background-color: #7d34c9;
 }
 .skill-box .indicator .js.active {
