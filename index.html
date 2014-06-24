@@ -1,10 +1,120 @@
----
-layout: default
-title: 阅夏的博客
----
-<h2>文章列表</h2>
-<ul>
-	{% for post in site.posts %}
-	<li><span class="fr">{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
-	{% endfor %}
-</ul>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hoga个人网站</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/blog2.js"></script>
+</head>
+<body>
+	<div id="header">
+		<div class="wrapper">
+			<a href="#" id="logo"></a>
+			<p>个人网站</p>
+		</div>
+	</div>
+	<div id="main">
+		<div class="wrapper">
+			<div class="scene-holder">
+				<div class="scene show">
+					<div class="man"></div>
+					<div class="profile">
+						<h3>Profile</h3>
+						<ul>
+							<li>
+								<span class="lable">Name: </span>
+								<span>陈浩佳 24岁</span>
+							</li>
+							<li>
+				
+								<span class="lable">Education: </span>
+								<span>华南师范大学</span>
+							</li>
+							<li>
+								<span class="lable">Subject: </span>
+								<span>网络工程专业</span>
+							</li>
+							<li>
+								<span class="lable">Taget: </span>
+								<span>前端开发</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="scene">
+					<div class="works">
+						<h3>练习作品</h3>
+						<ul class="cf">
+							<li><a href="#"><img src="images/work1.jpg" alt="我的练习作品"></a></li>
+							<li><a href="#"><img src="images/work2.jpg" alt="我的练习作品"></a></li>
+							<li><a href="#"><img src="images/work3.jpg" alt="我的练习作品"></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="scene">
+					<div class="exp">
+						<h3>我的经历</h3>
+						<div class="exp-box">
+							<p class="exp1">2009.9~2013.7<br />华南师范大学<br />网络工程专业</p>
+							<p class="exp2">2013.7~2014.4 参加工作<br />纵横课题组 任技术助理</p>
+						</div>
+					</div>
+					<div class="skill">
+						<h3>我的技能</h3>
+						<ul class="skill-box cf">
+							<li>
+								<div class="indicator">
+									<div class="inner html"></div>
+								</div>
+								<div class="info">HTML</div>
+							</li>
+							<li>
+								<div class="indicator">
+									<div class="inner css"></div>
+								</div>
+								<div class="info">CSS</div>
+							</li>
+							<li>
+								<div class="indicator">
+									<div class="inner js"></div>
+								</div>
+								<div class="info">JS</div>
+							</li>
+							<!-- <li>
+								<div class="indicator">
+									<div class="inner other"></div>
+								</div>
+								<div class="info">Other</div>
+							</li> -->
+						</ul>
+					</div>
+				</div>
+				<div class="scene">
+					<div class="about">
+						<h3>关于我和web前端</h3>
+						<p>大四初次做网页，工作后做网站的维护和开发，逐渐发现对前端开发的兴趣。由于人手紧缺，我需要兼职大量其他工作。在明确目标后我提出了离开。</p>
+						<p>又经过两个多月的学习，开始了解了web标准、语义化、一些样式层设计的原则等，然而这些理念不在工作中得到检验只能是浮云。</p>
+						<p>现在我能较熟练地对网页进行重构，实现跨浏览器兼容，并完成一些简单的交互。目前我并不太擅长设计，做这个网页时主要精力耗费在这上面了。</p>
+						<p>我期望能从事相关的工作。我深知自身经验和能力的不足，会用心去学！</p>
+						<p>最后，非常感谢您的耐心！</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="inner_bg"></div>
+		<div class="boli"></div>
+		<div class="black"></div>
+	</div>
+	<div id="footer">
+		<p class="fr">Design by 陈浩佳</p>
+		<div class="button-box">
+			<span class="channel-btn"></span>
+			<span class="btn profile-btn active">Profile</span>
+			<span class="btn works-btn">Works</span>
+			<span class="btn experience-btn">Experience</span>
+			<span class="btn about-btn">About</span>
+		</div>
+	</div>
+</body>
+</html>
