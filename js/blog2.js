@@ -119,9 +119,13 @@ $(document).ready(function () {
 		$(".inner").addClass("active");
 	});
 
-	//关闭按钮
+	//关闭按钮及点击跳转
 	$(".warn .close").on("click", function() {
 		$(".warn").hide();
-	})
+	});
+	$(".warn a").on("click", function() {
+		$(".button-box .btn").eq(1).click();
+	});
+
 
 });
