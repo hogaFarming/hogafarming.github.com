@@ -1,4 +1,4 @@
 hogafarming.github.com
 ======================
-Hi,this is Hoga trying to build a blog.
+Hi,this is Hoga trying to build his website.
 : )
